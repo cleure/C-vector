@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.6)
-project (test)
+project (vector)
 
-set (CMAKE_C_FLAGS "-Wall --std=c89 -fasm-blocks -g")
+set (CMAKE_C_FLAGS "-Wall --std=c89")
 
 include_directories(
     "${PROJECT_SOURCE_DIR}"
